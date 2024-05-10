@@ -8,7 +8,7 @@ public class SurveyProgram {
         int responses[] = new int[20];
 
         System.out.println("Enter a number [1 - 5]: ");
-        
+
         for (int i = 0; i < responses.length; i++) {
             responses[i] = input.nextInt();
 
@@ -31,5 +31,7 @@ public class SurveyProgram {
         System.out.println("3\t" + occur3);
         System.out.println("4\t" + occur4);
         System.out.println("5\t" + occur5);
+
+        input.close();
     }
 }

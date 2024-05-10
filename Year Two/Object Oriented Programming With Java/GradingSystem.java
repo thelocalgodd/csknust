@@ -7,7 +7,6 @@ public class GradingSystem {
         int examScore;
         int assesmentScore;
         int totalScore;
-        boolean paidFees;
         int checkPaidFees;
         int fee;
 
@@ -52,6 +51,6 @@ public class GradingSystem {
         } else {
             System.out.print("You have paid your fees and passed the exam \n, You have earned a Certificate.");
         }
-
+        input.close();
     }
 }

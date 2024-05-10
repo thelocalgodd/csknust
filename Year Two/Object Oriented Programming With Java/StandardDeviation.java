@@ -4,7 +4,7 @@
  * Computer Science 2 - Group 2
  */
 
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class StandardDeviation {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class StandardDeviation {
         Scanner input = new Scanner(System.in);
 
         for (int i = 0; i < 10; i++) {
-            System.out.println( "Please enter an even number between 2 and 20 (inclusive):");
+            System.out.println("Please enter an even number between 2 and 20 (inclusive):");
             int userInput = input.nextInt();
 
             while (userInput % 2 != 0 || userInput < 2 || userInput > 20) {
@@ -34,5 +34,7 @@ public class StandardDeviation {
         double sd = Math.sqrt(variance / 10);
 
         System.out.println("Standard Deviation: " + sd);
+
+        input.close();
     }
 }

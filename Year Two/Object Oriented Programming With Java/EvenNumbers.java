@@ -37,6 +37,8 @@ public class EvenNumbers {
 
         // Display the standard deviation
         System.out.println("Standard deviation of the even numbers: " + standardDeviation);
+
+        scan.close();
     }
 
     // Helper method to calculate the mean of an array
@@ -47,4 +49,5 @@ public class EvenNumbers {
         }
         return (double) sum / arr.length;
     }
+
 }

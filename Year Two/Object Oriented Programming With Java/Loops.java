@@ -4,7 +4,7 @@ public class Loops {
         int sum = 0;
 
         for (int i = 0; i < 10; i++) {
-            if(i % 2 == 0) {
+            if (i % 2 == 0) {
                 evenInt[i] = i;
                 System.out.println(i);
 
@@ -19,12 +19,10 @@ public class Loops {
 
         System.out.println("the Standard Deviation is: " + sd);
 
-
-    }    
+    }
 }
 
-
-public class SimpleStandardDeviation {
+class SimpleStandardDeviation {
 
     public static double standardDeviation(int[] data) {
         if (data.length == 0) {
@@ -47,7 +45,7 @@ public class SimpleStandardDeviation {
     }
 
     public static void main(String[] args) {
-        int[] numbers = {2, 4, 6, 8, 10};
+        int[] numbers = { 2, 4, 6, 8, 10 };
         double stdDev = standardDeviation(numbers);
         System.out.println("Standard deviation: " + stdDev);
     }
